@@ -61,7 +61,9 @@ namespace FastCampus.Characters
 
             if (Input.GetButtonDown("Dash"))
             {
-                Vector3 dashVelocity = Vector3.Scale(transform.forward, dashDistance * new Vector3((Mathf.Log(1f / (Time.deltaTime * rigidbody.drag + 1)) / -Time.deltaTime), 0, (Mathf.Log(1f / (Time.deltaTime * rigidbody.drag + 1)) / -Time.deltaTime)));
+                Vector3 dashVelocity = Vector3.Scale(transform.forward,
+                    dashDistance * new Vector3((Mathf.Log(1f / (Time.deltaTime * rigidbody.drag + 1)) / -Time.deltaTime),
+                    0, (Mathf.Log(1f / (Time.deltaTime * rigidbody.drag + 1)) / -Time.deltaTime)));
                 rigidbody.AddForce(dashVelocity, ForceMode.VelocityChange);
             }
         }

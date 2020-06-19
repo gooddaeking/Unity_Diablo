@@ -54,6 +54,7 @@ namespace FastCampus.Characters
                 }
             }
 
+            // 아직 남은 거리를 계산 > 멈춰야하는 거리
             if (agent.remainingDistance > agent.stoppingDistance)
             {
                 characterController.Move(agent.velocity * Time.deltaTime);

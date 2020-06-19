@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 1537c8262cc6fe3428c28b5ac8cdec4c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 751935a553511b3498bbae32d64792c2, type: 2}
 --- !u!1 &217045105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1652,7 @@ Terrain:
   m_GameObject: {fileID: 2005610942}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: f797bc77315df5e4a8268da3710e8d86, type: 2}
+  m_TerrainData: {fileID: 0}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -1794,6 +1794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AgentControllerCharacter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649722622190744779, guid: af1b51d06f6c4054fa5f1e102037bef4,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 720
       objectReference: {fileID: 0}
     - target: {fileID: 6649722622190744788, guid: af1b51d06f6c4054fa5f1e102037bef4,
         type: 3}
